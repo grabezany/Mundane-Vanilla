@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundane Vanilla</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Assets/vanilla.png">
+</head>
+<body>
+    <div class="top-right-banner">
+  <img src="Assets/vanilla.png" alt="Logo" />
+  <span><h2>MVanilla</h2></span>
+</div>
+
+
+  <div class="code-editor-container">
+    
+    <div class="editor-area">
+      <div class="line-numbers"></div>
+      <textarea class="codearea" spellcheck="false"></textarea>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-title">Tools</div>
+      <div class="file-list">
+        <div class="file-item" id="linkgit">Link Github</div>
+        <div class="file-item" id="linktoken">Link Auth Token</div>
+        <div class="sidebar-title">Repositories</div>
+        <div id="repositorycontainer">
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/fflate/umd/index.js"></script>
+</body>
+</html>
